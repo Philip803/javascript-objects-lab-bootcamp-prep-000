@@ -13,3 +13,7 @@ function destructivelyUpdateObjectWithKeyAndValue(abj , key, value){
   
   
 }
+
+function deleteFromObjectByKey(abj , key , value){
+  
+}
