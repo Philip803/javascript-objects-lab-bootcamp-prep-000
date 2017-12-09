@@ -8,12 +8,15 @@ function updateObjectWithKeyAndValue(obj, key, value ){
   return Object.assign({} , obj , newVal);
 }
 
-function destructivelyUpdateObjectWithKeyAndValue(abj , key, value){
-  
-  
+function destructivelyUpdateObjectWithKeyAndValue(obj , key, value){
+  obj[key] = value;
+  return abj;
+}
+
+function deleteFromObjectByKey(obj , key , value){
   
 }
 
-function deleteFromObjectByKey(abj , key , value){
+function destructivelyDeleteFromObjectByKey(obj, key){
   
 }
